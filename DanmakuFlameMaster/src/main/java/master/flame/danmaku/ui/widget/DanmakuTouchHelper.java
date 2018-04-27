@@ -30,7 +30,7 @@ public class DanmakuTouchHelper {
                 if (onDanmakuClickListener != null) {
                     mXOff = danmakuView.getXOff();
                     mYOff = danmakuView.getYOff();
-                    return true;
+                    return false;
                 }
             }
             return false;
